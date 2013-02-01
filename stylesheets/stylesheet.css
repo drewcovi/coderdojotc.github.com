@@ -443,28 +443,31 @@ h1#project_title {
 	list-style: none;
 }
 
-ul#founders li.founder {
+#founders {
+	padding: 0 50px;
+}
+
+#founders li.founder {
 	height: 62px;
-	width: 300px;
+	width: 270px;
 	display: block;
 	float: left;
-	padding-left: 16px;
 	margin-bottom: 16px;
 }
 
-ul#founders span.twitter {
+#founders span.twitter {
 	font-size: 14px;
 	line-height: 16px;
 }
 
-ul#founders span.name, ul#founders span.twitter, ul#founders span.title {
+#founders span.name, #founders span.twitter, #founders span.title {
 	display: block;
 }
 
-ul#founders span.name {
+#founders span.name {
 	padding-top: 5px;
 }
-ul#founders span.title {
+#founders span.title {
 	display: none;
 }
 
@@ -475,7 +478,7 @@ ul#founders span.title {
 	margin: 0;
 }
 
-ul#founders img.mug {
+#founders img.mug {
 	-webkit-border-radius: 25px;
 	-o-border-radius: 25px;
 	-ms-border-radius: 25px;
