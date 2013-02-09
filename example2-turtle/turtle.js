@@ -2,8 +2,8 @@ var Turtle  =  function ( start_x, start_y ) {
 	
 	this.points  =  [];
 	
-	this.x  =  start_x * Turtle.DISTANCE || 0;
-	this.y  =  start_y * Turtle.DISTANCE || 0;
+	this.x  =  ( start_x || 0 ) * Turtle.DISTANCE;
+	this.y  =  ( start_y || 0 ) * Turtle.DISTANCE;
 	
 	Turtle.list.push( this );
 };
