@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="turtle.js"></script>
+	</head>
+	<body>
+		<canvas id="main" width="500" height="500" style="border: solid 1px gray;"></canvas>
+		
+<script>
+	Turtle.init( 'main' ); // The id="" of the <canvas> tag
+	
+	var t =  new Turtle( 1, 1 );
+	t.down( 8 )
+		.right( 2 )
+		.up( 4 )
+		.move( 2, 2 )
+		.move( 2, -2 )
+		.down( 4 )
+		.right( 2 )
+		.up( 8 )
+		.left( 2 )
+		.move( -2, 2 )
+		.move( -2, -2 )
+		.left( 2 );
+	
+	var t2  =  new Turtle( 1, 15 );
+	t2.down( 6 )
+		.right( 7 )
+		.up( 5 )
+		.left( 4 )
+		.down( 2 )
+		.right( 2 )
+		.down( 1 )
+		.left( 3 )
+		.up( 4 )
+		.right( 5 )
+		.up( 2 )
+		.left( 7 )
+		.down( 2 );
+</script>
+		
+	</body>
+</html>
